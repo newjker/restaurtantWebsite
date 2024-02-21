@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  min-height: calc(100vh - 167px);
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  max-width: 100vw;
+  overflow-x: hidden;
+}

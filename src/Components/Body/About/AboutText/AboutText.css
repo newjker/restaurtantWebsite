@@ -1,0 +1,52 @@
+.elli2 {
+  position: relative;
+  top: 18.7vh;
+  left: 9vw;
+  z-index: 1;
+}
+
+.alignedText2 {
+  display: grid;
+  grid-template-rows: repeat(3, 189px);
+  grid-template-columns: 900px;
+  gap: 0.5rem;
+  color: #eaeaea;
+  position: relative;
+  top: calc(18.7vh - 8.96em);
+  left: calc(9vw + 3.6em);
+  z-index: 1;
+  letter-spacing: 0em;
+  z-index: 2;
+}
+
+.alignedText2H1 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 63px;
+
+  text-align: left;
+}
+.alignedText2H2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+  text-align: left;
+}
+.rectangle2 {
+  color: rgba(234, 234, 234, 1);
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+
+  text-align: center;
+}
+.alignedText2Btn {
+  width: 274px;
+  height: 69px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #fe3701 0%, #dc1e01 100%);
+  border-style: hidden;
+}

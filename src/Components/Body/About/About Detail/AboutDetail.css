@@ -1,0 +1,8 @@
+.flowers {
+  position: absolute;
+  top: 165.5vh;
+  right: 1rem;
+  height: 20vh;
+  max-height: 283px;
+  z-index: 1;
+}

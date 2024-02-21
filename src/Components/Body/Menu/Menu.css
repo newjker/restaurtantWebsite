@@ -1,0 +1,7 @@
+.menu {
+  background: rgba(243, 79, 52, 1);
+  min-height: 100vh;
+  display: flex;
+  scroll-margin-top: 16.3vh;
+  background-size: cover;
+}

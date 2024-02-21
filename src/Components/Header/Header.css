@@ -1,0 +1,67 @@
+/* Style the Header */
+.header {
+  width: 100vw;
+  position: fixed;
+  height: 16.3vh;
+  z-index: 99;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  top: 0;
+  left: 0;
+}
+
+/* Style Header Links */
+.logo {
+  margin-top: 5.18vh;
+  margin-left: 4vw;
+  width: 15.8vw;
+  max-width: 228px;
+}
+.header a {
+  margin-top: 5.76vh;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Montserrat, sans-serif;
+}
+.instLogo {
+  margin-right: 5.56vw;
+  max-height: 25px;
+}
+
+/* Style mouse over */
+/*.header a:hover {
+  background-color: bisque;
+  color: black;
+}*/
+
+/*.header a.active {
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    #fe3701 0%,
+    #dc1e01 100%
+  );
+  color: #f1f1f1;
+}*/
+
+.navopt {
+  float: right;
+  max-height: 11.5vh;
+}
+
+/* Add media queries for responsive */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navopt {
+    float: none;
+  }
+}

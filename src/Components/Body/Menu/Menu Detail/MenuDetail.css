@@ -1,0 +1,7 @@
+.girl {
+  position: absolute;
+  right: 2rem;
+  height: 25vh;
+  max-height: 472px;
+  z-index: 1;
+}

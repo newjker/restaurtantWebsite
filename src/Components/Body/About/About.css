@@ -1,0 +1,10 @@
+.about {
+  background: linear-gradient(rgb(14, 14, 14), rgba(22, 22, 22, 0)),
+    url("../../../Images/Background.png");
+  display: flex;
+
+  height: 83.7vh;
+  scroll-margin-top: 16.3vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

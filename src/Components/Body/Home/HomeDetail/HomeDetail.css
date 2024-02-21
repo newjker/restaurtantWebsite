@@ -1,0 +1,14 @@
+.elli {
+  position: absolute;
+  top: 28vh;
+  left: 15vw;
+  z-index: 0;
+}
+
+.randomImg {
+  position: absolute;
+  top: 39.22vh;
+  left: 53vw;
+  width: 32vw;
+  max-width: 608px;
+}
