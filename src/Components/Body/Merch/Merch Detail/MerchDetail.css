@@ -1,0 +1,17 @@
+.merchDetails {
+  display: flexbox;
+  overflow-x: hidden;
+}
+
+.rightDetail {
+  position: relative;
+  top: -11vh;
+  left: -6.5vw;
+  max-width: 30vw;
+}
+
+.leftDetail {
+  position: relative;
+  max-width: 20vw;
+  right: -56vw;
+}

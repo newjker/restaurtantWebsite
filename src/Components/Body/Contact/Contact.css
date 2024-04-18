@@ -1,0 +1,9 @@
+.contact {
+  width: 100%;
+  min-height: 83.7vh;
+  scroll-margin-top: 16.3vh;
+  background-size: cover;
+  position: relative;
+  background: #efefef;
+  overflow-x: hidden;
+}

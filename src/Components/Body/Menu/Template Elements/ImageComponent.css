@@ -1,0 +1,27 @@
+.overall_component {
+  margin: 0.5rem;
+}
+
+.image_sizing {
+  height: 160px;
+  width: 240px;
+}
+
+.text_sizing {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 6px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-block-start: 6px;
+  max-width: 240px;
+}
+
+.text_sizing_right {
+  float: right;
+}
+
+.vlogo {
+  margin-block-start: 12px;
+}

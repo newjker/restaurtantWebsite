@@ -23,9 +23,12 @@ const frontLayoutAbout = () => {
           <br />
           Enjoy our freshly cooked heartly meal with a reasonable price.
         </h2>
-        <button className="alignedText2Btn">
-          <div className="rectangle2">See our merch</div>
-        </button>
+        <a
+          style={{ position: "relative", width: "274px", height: "90px" }}
+          href="#merch"
+        >
+          <button className="alignedText2Btn">See our merch</button>
+        </a>
       </div>
     </div>
   );

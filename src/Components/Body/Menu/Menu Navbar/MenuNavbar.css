@@ -1,0 +1,41 @@
+.stickyHeader {
+  position: sticky;
+  width: 100vw;
+  height: 24.45vh;
+  top: 16.3vh;
+  background-color: #efefef;
+  z-index: 98;
+}
+
+.stickyHeader a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+}
+
+.menuNavopt {
+  position: absolute;
+  top: calc(50% + 5rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menuCentered {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 800;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*Style mouse over */
+.menuNavopt a:hover {
+  color: #ff3800;
+}
+
+.menuNavopt a.active {
+  color: #ff3800;
+}

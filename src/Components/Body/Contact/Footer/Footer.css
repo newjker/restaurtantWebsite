@@ -1,0 +1,34 @@
+.contact_footer {
+  width: 100%;
+}
+
+.creator {
+  position: absolute;
+  bottom: 1.5vh;
+  right: 6%;
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+.bottom_line {
+  position: absolute;
+  left: 5%;
+  bottom: 5.5vh;
+  width: 90%;
+  height: 1px;
+  background-color: black;
+}
+
+.bottom_cpyrt {
+  position: absolute;
+  bottom: 6.5vh;
+  font-size: 1.4375rem;
+  font-weight: 500;
+  left: 5%;
+}
+
+.bottom_inst_logo {
+  position: absolute;
+  bottom: 6.5vh;
+  right: 6%;
+}

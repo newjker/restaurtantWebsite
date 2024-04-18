@@ -5,7 +5,7 @@
   height: 16.3vh;
   z-index: 99;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #efefef;
   top: 0;
   left: 0;
 }
@@ -34,20 +34,14 @@
   max-height: 25px;
 }
 
-/* Style mouse over */
-/*.header a:hover {
-  background-color: bisque;
-  color: black;
-}*/
+/*Style mouse over */
+.header a:hover {
+  color: #ff3800;
+}
 
-/*.header a.active {
-  background-image: radial-gradient(
-    50% 50% at 50% 50%,
-    #fe3701 0%,
-    #dc1e01 100%
-  );
-  color: #f1f1f1;
-}*/
+.header a.active {
+  color: #ff3800;
+}
 
 .navopt {
   float: right;

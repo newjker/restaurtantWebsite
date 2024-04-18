@@ -20,9 +20,9 @@
 }
 
 .alignedText2H1 {
-  font-size: 52px;
+  font-size: 64px;
   font-weight: 600;
-  line-height: 63px;
+  line-height: 64px;
 
   text-align: left;
 }
@@ -33,20 +33,19 @@
 
   text-align: left;
 }
-.rectangle2 {
-  color: rgba(234, 234, 234, 1);
 
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
-
-  text-align: center;
-}
 .alignedText2Btn {
-  width: 274px;
-  height: 69px;
-  flex-shrink: 0;
-  border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #fe3701 0%, #dc1e01 100%);
-  border-style: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #efefef;
+  cursor: pointer;
+  color: #efefef;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
 }

@@ -1,0 +1,6 @@
+.containerTemp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  column-gap: 100px;
+  row-gap: 15px;
+}

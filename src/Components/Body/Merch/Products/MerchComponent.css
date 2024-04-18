@@ -1,0 +1,38 @@
+.overall_merch_component {
+  margin-top: 35px;
+  border-radius: 50px;
+  background-color: rgba(239, 239, 239, 0.95);
+  width: 525px;
+  height: 650px;
+  position: relative;
+}
+
+.merch_img_size {
+  width: 476px;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.merch_text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 0.75rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 30%;
+  transform: translateX(-30%);
+}
+
+.merch_text_title {
+  font-size: 2.25rem;
+}
+
+.merch_text_price {
+  font-size: 2.25rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 4.25rem;
+  right: 10%;
+}

@@ -1,16 +1,26 @@
+import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../Images/Header/Logo.png";
-import instLogo from "../../Images/Header/Instagram_logo.png";
+
+import Navigation from "./Navigation/Navigation";
 
 const fixedHeader = () => {
+  const [activeLink, setActiveLink] = useState("");
+
   return (
     <div className="header">
       <img className="logo " src={logo} alt="Pompoko Japanese Restaurant" />
-      <div className="navopt">
+      <Navigation activeLink={activeLink} setActiveLink={setActiveLink} />
+    </div>
+  );
+};
+
+export default fixedHeader;
+/*<div className="navopt">
         <a className="individual" href="#home">
           Home
         </a>
-        <a className="individual" href="#about">
+        <a className="individual active" href="#about">
           About
         </a>
         <a className="individual" href="#menu">
@@ -26,9 +36,4 @@ const fixedHeader = () => {
         >
           <img src={instLogo} alt="Follows us on Instagram" />
         </a>
-      </div>
-    </div>
-  );
-};
-
-export default fixedHeader;
+      </div>*/

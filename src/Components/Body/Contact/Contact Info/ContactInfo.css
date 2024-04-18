@@ -1,0 +1,21 @@
+.contact_page_title {
+  font-size: 64px;
+  font-weight: 800;
+  position: absolute;
+  left: 10vw;
+  top: 5vh;
+}
+
+.contact_page_text {
+  font-size: 28px;
+  font-weight: 600;
+  position: absolute;
+  left: 10vw;
+  top: 25vh;
+  line-height: 1.75em;
+}
+
+.contact_page_text a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,14 @@
+.title_text {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 800;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #efefef;
+  top: 0;
+}
+
+.merch_items {
+  position: relative;
+  top: 150px;
+}

@@ -1,12 +1,14 @@
 import "./Menu.css";
-import Templates from "./TemplateElement/template";
-import MenuDrawing from "./Menu Detail/MenuDetail";
+//import Templates from "./TemplateElement/template";
+import IndividualTemplate from "./Template Elements/IndividualTemplate";
+import MenuNavBar from "./Menu Navbar/MenuNavbar";
 
 const Menu = () => {
   return (
     <div className="menu" id="menu">
-      <MenuDrawing />
-      <Templates />
+      <MenuNavBar />
+
+      <IndividualTemplate />
     </div>
   );
 };

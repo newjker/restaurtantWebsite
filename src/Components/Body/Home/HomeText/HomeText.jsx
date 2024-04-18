@@ -19,11 +19,13 @@ const frontLayoutHome = () => {
           <br />
           110 Church St, BN1 1UD, Brighton
         </h2>
-        <button className="alignedTextBtn">
-          <a className="rectangle" href="#menu">
-            See our menu
-          </a>
-        </button>
+
+        <a
+          style={{ position: "relative", width: "274px", height: "90px" }}
+          href="#menu"
+        >
+          <button className="alignedTextBtn">See our menu</button>
+        </a>
       </div>
     </div>
   );

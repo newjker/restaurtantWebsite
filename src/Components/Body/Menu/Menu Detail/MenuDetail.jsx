@@ -1,10 +1,12 @@
 import "./MenuDetail.css";
-import Girl from "../../../../Images/drawing1 1.png";
+import MomBoy from "../../../../Images/drawing1.png";
+import Flowers from "../../../../Images/drawing2.png";
 
 const MenuDrawing = () => {
   return (
     <div>
-      <img className="girl" src={Girl} />
+      <img className="momBoy" src={MomBoy} alt="mom and boy eating rice" />
+      <img className="flowers" src={Flowers} alt="flowers by the window" />
     </div>
   );
 };
